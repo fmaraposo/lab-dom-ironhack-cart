@@ -20,7 +20,6 @@ function calculateAll() {
     updateSubtotal(product);
     let productPrice = product.querySelector('.price span').innerHTML;
     let productQuantity = product.querySelectorAll('.quantity input')[0].value;
-    console.log(product.querySelectorAll('.quantity input'));
     let productSubtotal = productPrice * productQuantity;
     sum += productSubtotal;
   });
